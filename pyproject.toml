@@ -22,6 +22,9 @@ line-ending = "auto"
 
 [dependency-groups]
 dev = [
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.7.1",
+    "mkdocstrings[python]>=1.0.1",
     "pre-commit>=4.5.1",
     "ruff>=0.14.13",
 ]

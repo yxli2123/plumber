@@ -1,0 +1,24 @@
+site_name: plumber
+site_description: Synthetic post-training data (prompts and verifiers).
+site_url: https://example.com/plumber/
+
+theme:
+  name: material
+
+nav:
+  - Overview: index.md
+  - API Reference: api.md
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_source: false
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
